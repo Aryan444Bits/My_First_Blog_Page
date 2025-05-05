@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a{
+    color:black
+}
+.hd{
+     width: 100%;
+    height: 55px;
+    background-color: rgb(65, 61, 61);
+    margin: 0;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    padding: 10px;
+}
+#nav{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(185, 179, 179);
+    text-align: center;
+    word-spacing: 30px;
+}
+#side{
+    width: 10%;
+    height: 700px;
+    background-color:rgb(216, 216, 216);
+    margin-top: auto;
+    padding: 10px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ab{
+    padding: 20px;
+    color: rgb(90, 88, 88);
+    
+}
+h2{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#parent{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position:absolute;
+    left: 400px;
+    bottom: 35%;
+    top: 200px;
+}
+#child1{
+    width: 200px;
+    height: 300px;
+    background-color: aquamarine;
+    background-image: url(https://images.unsplash.com/photo-1493925410384-84f842e616fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+}
+#child2{
+    width: 200px;
+    height: 300px;
+    background-color: lightblue;
+    background-image: url(https://images.unsplash.com/photo-1539701938214-0d9736e1c16b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+}
+#child3{
+    width: 200px;
+    height: 300px;
+    background-color:lightseagreen;
+    background-image: url(https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+}
+#sum{
+    position: absolute;
+    left: 11%;
+    top: 70%;
+}
+#sum1{
+    position: absolute;
+    left: 11%;
+    top: 79%;
+}
+#coff{
+    position: absolute;
+    left: 15%;
+    top: 85%;   
+}
+#mid{
+    position: absolute;
+    left: 11%;
+    top: 95%; 
+}
+#last{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(60, 59, 59);
+    text-align: center;
+    padding: 25px;
+    color:white
+}
