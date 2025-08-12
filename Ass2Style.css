@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
 .a{
     color:black
 }
@@ -29,7 +34,7 @@ h1{
 }
 #side{
     width: 10%;
-    height: 700px;
+    height: 100%;
     background-color:rgb(216, 216, 216);
     margin-top: auto;
     padding: 10px;
@@ -106,6 +111,4 @@ h2{
     text-align: center;
     padding: 25px;
     color:white;
-    margin-top:50px;
 }
-
