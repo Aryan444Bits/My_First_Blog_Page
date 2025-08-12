@@ -105,5 +105,6 @@ h2{
     background-color: rgb(60, 59, 59);
     text-align: center;
     padding: 25px;
-    color:white
+    color:white;
+    margin-top:10px;
 }
